@@ -1,0 +1,25 @@
+{
+	"version": 1,
+	"skills": {
+		"nodejs-backend-patterns": {
+			"source": "wshobson/agents",
+			"sourceType": "github",
+			"computedHash": "c6a99966c2565acc388e574039127abc770bb9a3338be761e421e16f023f702b"
+		},
+		"nodejs-best-practices": {
+			"source": "sickn33/antigravity-awesome-skills",
+			"sourceType": "github",
+			"computedHash": "64f10ff6795265dc4a97a72af86ee309fe57e6c35507775a4da893985984956b"
+		},
+		"nodejs-express-server": {
+			"source": "aj-geddes/useful-ai-prompts",
+			"sourceType": "github",
+			"computedHash": "94af4eda308df6d27b94cc866de0d3d857755c91da01808d3d8130d91ebaf231"
+		},
+		"typescript-advanced-types": {
+			"source": "wshobson/agents",
+			"sourceType": "github",
+			"computedHash": "3a3be8c925f96ac4e1280db28a01677e7ca5197f3792de2bbf35ab3bb324b6dd"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+# Dependencies
+node_modules
+
+# Build outputs
+.next
+out
+dist
+build
+coverage
+.turbo
+
+# Generated files
+*.min.js
+*.min.css
+
+# Environment
+.env*
+
+# Lock files
+pnpm-lock.yaml
+yarn.lock
+package-lock.json

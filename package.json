@@ -1,25 +1,38 @@
 {
     "name": "movies-api",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "dist/index.js",
     "license": "MIT",
     "scripts": {
-        "dev": "nodemon index.js",
-        "test": "mocha --exit"
+        "dev": "nodemon --exec ts-node index.ts",
+        "build": "tsc",
+        "test": "mocha -r ts-node/register \"test/**/*.test.ts\" --exit",
+        "format": "prettier --write ."
     },
     "dependencies": {
-        "assert": "^2.0.0",
-        "body-parser": "^1.20.3",
-        "cors": "^2.8.5",
-        "dotenv": "^10.0.0",
-        "express": "^4.20.0",
-        "mongodb": "^3.6.9",
-        "mongoose": "^8.9.5"
+        "assert": "2.1.0",
+        "body-parser": "2.2.2",
+        "cors": "2.8.6",
+        "dotenv": "17.4.1",
+        "express": "5.2.1",
+        "mongodb": "7.1.1",
+        "mongoose": "9.4.1"
     },
     "devDependencies": {
-        "mocha": "^8.4.0",
-        "nodemon": "^2.0.7",
-        "proxyquire": "^2.1.3",
-        "supertest": "^6.1.3"
+        "@types/body-parser": "1.19.6",
+        "@types/cors": "2.8.19",
+        "@types/express": "5.0.6",
+        "@types/mocha": "10.0.10",
+        "@types/node": "25.6.0",
+        "@types/proxyquire": "1.3.31",
+        "@types/supertest": "7.2.0",
+        "autoskills": "0.2.7",
+        "mocha": "11.7.5",
+        "nodemon": "3.1.14",
+        "prettier": "3.8.2",
+        "proxyquire": "2.1.3",
+        "supertest": "7.2.2",
+        "ts-node": "10.9.2",
+        "typescript": "6.0.2"
     }
 }
